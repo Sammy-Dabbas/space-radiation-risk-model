@@ -1,0 +1,17 @@
+I need to find all datasets related to this research project Project Title 
+
+Quantifying Cumulative Space Radiation Dose and Cancer Risk Using Hybrid Physics and Machine Learning
+
+⸻
+
+Abstract  Project Description
+
+Long-duration spaceflight exposes astronauts to chronic ionizing radiation from galactic cosmic rays (GCR) and solar particle events (SPE), both of which significantly increase long-term cancer and degenerative health risks. This project develops a hybrid physics–machine learning model to predict cumulative radiation dose and effective biological risk across mission profiles such as the ISS, Lunar Gateway, and Mars transit.
+
+The system integrates open NASA radiation environment data with simplified shielding physics and solar cycle parameters. Using Python, the model first computes baseline dose attenuation using exponential particle shielding, then trains an XGBoost regression model to predict daily dose rates from mission variables including altitude, shielding areal density, and solar activity. The resulting pipeline outputs cumulative dose (mGy), effective dose (Sv), and a projected risk band (Low, Moderate, High).
+
+An interactive Streamlit dashboard allows users to simulate missions, visualize dose accumulation curves, and compare radiation protection strategies. The goal is to create a transparent, data-driven framework that supports educational and research applications in aerospace medicine and radiation health risk modeling.
+
+⸻
+
+Would you like me to write a Methods section outline next (for your report or poster) that matches this project description It would include data sources, model design, validation, and visualization workflow.
